@@ -104,6 +104,38 @@
     margin-left: 40px;
 }
 
-@media (max-width: 960px){
+@media (max-width: 552px){
 
+  .award-detail h4 {
+    margin-top: 0px;
+    font-size: 21px;
+    margin-bottom: 5px;
+}
+.award-detail .award-date {
+    font-size: 17px;
+    font-weight: 800;
+    color: #2a5678;
+}
+.teaser-block .lead-heading h2 span {
+    font-weight: 800;
+    font-size: 35px;
+}
+.teaser-block .lead-heading h2 {
+    font-size: 34px;
+}
+
+.presents-text {
+font-size: 23px;
+}
+.m-right img {
+    max-width: 194px;
+    margin-left: 18px;
+}
+.register-container .form-control {
+    font-size: 14px;
+    height: 40px;
+}
+.register-container .btn {
+    height: 40px;
+}
 }
