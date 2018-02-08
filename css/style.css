@@ -10,20 +10,30 @@
 
 .teaser-block {
     max-width: 600px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px
 }
 .teaser-block .lead-heading h2 {
     margin-top: 0px;
-    font-size: 47px;
+    font-size: 36px;
     font-weight: 700;
-    margin-bottom: 40px;
+    margin-bottom: 12px;
     color: #295779;
     text-shadow: 2px 2px 2px white;
+}
+.teaser-block .lead-heading h2 span {
+    font-weight: 800;
+    font-size: 50px;
+}
+.presents-text {
+    color: #f77e2e;
+    font-size: 27px;
+    margin-bottom: 17px;
 }
 .award-detail {
     padding-left: 14px;
     border-left: 5px solid #f67f2e;
-    margin-bottom: 40px;
+    margin-bottom: 27px;
 }
 .award-detail h4 {
     margin-top: 0px;
@@ -72,6 +82,28 @@
     background: linear-gradient(to bottom,#437aa2 1%,#2c5f84 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#437aa2', endColorstr='#2c5f84', GradientType=0);
 }
+.logos-containers {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #8db3b7;
+}
+.logos-containers img {
+    max-height: 38px;
+    background-color: #f9fefe;
+    padding: 4px;
+    border-radius: 4px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 6px #969696;
+}
+.middle-content{
+  display: flex;
+  align-items: center;
+}
+.m-right img {
+    max-width: 248px;
+    margin-left: 40px;
+}
+
 @media (max-width: 960px){
 
 }
